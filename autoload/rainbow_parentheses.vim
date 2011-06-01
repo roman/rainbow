@@ -54,14 +54,14 @@ function rainbow_parentheses#Clear()
     let s:rainbow_parenthesis_active = 0
 endfunction
 
-function rainbow_parentheses#Toggle ()
-    if ! exists('rainbow_parenthesis_active')
-        call rainbow_parentheses#LoadRound ()
+function rainbow_parentheses#Toggle()
+    if !exists('s:rainbow_parenthesis_active')
+        call rainbow_parentheses#LoadRound()
     endif
     if s:rainbow_parenthesis_active != 0
-        call rainbow_parentheses#Clear ()
+        call rainbow_parentheses#Clear()
     else
-        call rainbow_parentheses#Activate ()
+        call rainbow_parentheses#Activate()
     endif
 endfunction
 
