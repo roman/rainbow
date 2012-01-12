@@ -26,22 +26,22 @@
 " Section: highlight {{{1
 
 function rainbow_parentheses#Activate()
-    hi level1c  guifg=OrangeRed1      ctermfg=DarkMagenta
-    hi level2c  guifg=LightGoldenRod1 ctermfg=DarkGreen
-    hi level3c  guifg=DeepSkyBlue1    ctermfg=DarkBlue
-    hi level4c  guifg=HotPink1        ctermfg=DarkRed
-    hi level5c  guifg=chartreuse1     ctermfg=White
-    hi level6c  guifg=OrangeRed1      ctermfg=Grey
-    hi level7c  guifg=LightGoldenRod1 ctermfg=LightYellow
-    hi level8c  guifg=DeepSkyBlue1    ctermfg=LightGreen
-    hi level9c  guifg=HotPink1        ctermfg=LightBlue
-    hi level10c guifg=chartreuse1     ctermfg=LightRed
-    hi level11c guifg=OrangeRed1      ctermfg=Brown
-    hi level12c guifg=LightGoldenRod1 ctermfg=Yellow
-    hi level13c guifg=DeepSkyBlue1    ctermfg=DarkMagenta
-    hi level14c guifg=HotPink1        ctermfg=DarkGreen
-    hi level15c guifg=chartreuse1     ctermfg=DarkBlue
-    hi level16c guifg=Yellow          ctermfg=DarkRed
+    hi level1c  guifg=Purple          ctermfg=DarkMagenta
+    hi level2c  guifg=ForestGreen     ctermfg=DarkGreen
+    hi level3c  guifg=RoyalBlue       ctermfg=DarkBlue
+    hi level4c  guifg=LightCoral      ctermfg=DarkRed
+    hi level5c  guifg=YellowGreen     ctermfg=Green
+    hi level6c  guifg=Gray            ctermfg=Grey
+    hi level7c  guifg=Gold            ctermfg=Yellow
+    hi level8c  guifg=LimeGreen       ctermfg=LightGreen
+    hi level9c  guifg=MediumTurquoise ctermfg=LightBlue
+    hi level10c guifg=Tomato          ctermfg=LightRed
+    hi level11c guifg=Chocolate       ctermfg=Brown
+    hi level12c guifg=GoldenRod       ctermfg=Yellow
+    hi level13c guifg=HotPink1        ctermfg=DarkMagenta
+    hi level14c guifg=LimeGreen       ctermfg=DarkGreen
+    hi level15c guifg=DeepSkyBlue1    ctermfg=DarkBlue
+    hi level16c guifg=OrangeRed1      ctermfg=DarkRed
     let s:rainbow_parenthesis_active = 1
 endfunction
 
